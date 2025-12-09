@@ -32,11 +32,11 @@ python code.py
 ### Dependencies/Libraries Used
 
 + cryptography (the main library) consist of:
-- rsa: generate key pair
-- padding: add PSS (Probabilistic Signature Scheme) signing standard for more security
-- hashes: for SHA-256 to work
-- serialization: for saving key pairs into .pem file format
-- invaildsignature: for error message
+rsa: generate key pair
+padding: add PSS (Probabilistic Signature Scheme) signing standard for more security
+hashes: for SHA-256 to work
+serialization: for saving key pairs into .pem file format
+invaildsignature: for error message
 + getpass: Python dependency for masking passwords when typing
 + os: used for file system handling
 
