@@ -2,7 +2,7 @@
 
 ### Short Description of my project
 
-My project is to build a secure document-signing tool that ensures document integrity and authenticity using the Asymmetric Cryptography algorithm (RSA) and the Hashing algorithm (SHA-256). This tool works by letting users generate their RSA public/private key pairs, then sign their document with the generated private key, and when users want to verify the document, they will use the document's public key to detect if the file has been tampered with or corrupted.
+My project is to build a secure document-signing tool that ensures document integrity and authenticity using the Asymmetric Cryptography algorithm (RSA) and the Hashing algorithm (SHA-256). This tool works by letting users generate their RSA public/private key pairs with the private key encrypted with a password, then sign their document with the generated private key to generate the document signature. When users want to verify the document, they will use the signer's public key on the document signature to detect if the file has been tampered with or corrupted.
 
 ### Installation & Setup Instructions
 
