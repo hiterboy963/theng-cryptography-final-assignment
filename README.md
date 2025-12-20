@@ -1,4 +1,4 @@
-# Project Topic Title: Secure Digital Document Signer
+# Project Topic Title: Secure Digital Document Signer and Verifier
 
 ### Short Description of my project
 
@@ -31,12 +31,12 @@ python code.py
 ```
 ### Dependencies/Libraries Used
 
-+ cryptography (the main library) consist of:
-rsa: generate key pair
-padding: add PSS (Probabilistic Signature Scheme) signing standard for more security
-hashes: for SHA-256 to work
-serialization: for saving key pairs into .pem file format
-invaildsignature: for error message
++ cryptography (the main library) consists of:
+- rsa: generate key pair
+- padding: add PSS (Probabilistic Signature Scheme) signing standard for more security
+- hashes: for SHA-256 to work
+- serialization: for saving key pairs into a .pem file format
+- invaildsignature: for error message
 + getpass: Python dependency for masking passwords when typing
 + os: used for file system handling
 
